@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Dyandra Paramitha</title>
+</head>
+
+<style>
+    body {
+        background-color: cornflowerblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    td,th {
+        border: 2px solid black;
+    }
+
+    table{
+        border-collapse: collapse;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 400px;
+        height: 400px;
+        border: 5px solid #1f1f1f;
+        background-color: aliceblue;
+        padding: 20px;
+        margin: 5% 25%;
+        border-radius: 1rem;
+    }
+
+    .column {
+        float: left;
+        width: 50%;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    button {
+        background-color:cornflowerblue;
+        border: cornflowerblue;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 1rem;
+        order: 2px solid;
+    }
+
+    button:hover{
+        background-color: aliceblue;
+        color: black;
+        border: 2px solid black;
+    }
+</style>
+
+<body style="justify-content: center;">
+
+    <div class="row container">
+        <div class="column">
+            <div style="text-align: center; padding: 25% 15%;">
+                <img src="foto.jpg" width="120%" style="border-radius: 50%;">
+                <h1>Biodata<br>Dyandra Paramitha</h1>
+            </div>
+        </div>
+        <div class="column">
+
+            <div class="container">
+                <table style="margin-left: auto; margin-right: auto; font-size: larger;">
+                    <tbody>
+                        <tr>
+                            <td><b>Nama Lengkap</b></td>
+                            <td>Dyandra Paramitha Widyadhana</td>
+                        </tr>
+                        <tr>
+                            <td><b>Tempat, Tanggal Lahir</b></td>
+                            <td>Surabaya, 17 Juli 2001</td>
+                        </tr>
+                        <tr>
+                            <td><b>Jenis Kelamin</b></td>
+                            <td>Perempuan</td>
+                        </tr>
+                        <tr>
+                            <td><b>Agama</b></td>
+                            <td>Hindu</td>
+                        </tr>
+                        <tr>
+                            <td><b>Alamat Tinggal</b></td>
+                            <td>Jl. Manyar Sambongan 64B</td>
+                        </tr>
+                        <tr>
+                            <td><b>Status</b></td>
+                            <td>Belum Menikah</td>
+                        </tr>
+                        <tr>
+                            <td><b>Pekerjaan</b></td>
+                            <td>Mahasiswa</td>
+                        </tr>
+                        <tr>
+                            <td><b>Kewarganegaraan</b></td>
+                            <td>Indonesia</td>
+                        </tr>
+                        <tr>
+                            <td><b>Riwayat dan Hobi</b></td>
+                            <td>
+                                <button class="button-color" onclick="window.location.href='riwayat.html';">
+                                    Lihat Disini!
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
